@@ -1,0 +1,106 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+header{
+    width: 1280px;
+}
+nav{
+    width: 1280px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 110px;
+    
+
+}
+.nav-btn{
+    background-color: white;
+    border-width: 2px;
+    border-color: #006A50;
+    border-radius: 8px;
+    padding: 15px 25px;
+    color: #006A50 ;
+    font-weight: 600px;
+    font-size: 15px;
+}
+
+.banner{
+    width: 1280px;
+    height: 560px;
+    margin: 20px 100px 80px 110px;
+    border-radius: 24px;
+    background-color: #C6E4D6;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+   
+   
+}
+.banner-col1{
+   margin: 117px 60px ;
+   gap: 5px;
+}
+.banner-heading{
+    font-weight: 500px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(14, 14, 14, 1)
+}
+.banner-btn{
+    background-color: #006A50;
+    padding: 17px 34px;
+    color: white;
+    font-weight: 500px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.banner-col2{
+    width: 475px;
+    height: 400px;
+    margin: 80px 60px;
+}
+main{
+    width: 1280px;
+    margin-left: 110px;
+}
+.sec-piller{
+    width: 1280px;
+    height: 325px;
+    margin: 80px 160px;
+    gap: 5px;
+}
+.sec-pillers-heading{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.piller{
+    width: 250px;
+    height: 200px;
+    background-color: #F1F1F3;
+    padding: 24px;
+    border-radius: 16px;
+}
+.piller-title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #0E0E0E;
+}
+.piller-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.piller-container{
+    display: flex;
+    gap: 25px;
+}
