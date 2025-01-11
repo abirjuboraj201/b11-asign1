@@ -220,3 +220,61 @@ th,td {
  .table-opt:hover {
     background-color: #b6d4ba;
   }
+.sec-recent{
+    margin-top: 50px;
+}
+.news{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    gap: 30px;
+}
+.news-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 24px;
+}
+.channel-img{
+    width: 135px;
+    height: 40px;
+}
+.news-heading{
+    font-weight: bold;
+    font-size: 30px;
+    color: #rgba(14, 14, 14, 0.8);
+}
+.news-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-btn{
+    color: white;
+    padding: 13px 26px;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-weight: 700px;
+    font-size: 15px;
+    border: none;
+}
+
+.news-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+footer{
+    width: 1280px;
+    text-align: center;
+    margin: 100px 110px ;
+    
+}
+
+.social-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
