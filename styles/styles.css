@@ -2,25 +2,27 @@
 .work-sans-normal {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
 body{
     background-color: #F1F1F3;
 }
+
 header{
     width: 1280px;
 }
+
+/* navigation style */
+
 nav{
     width: 1280px;
     display: flex;
     justify-content:space-between;
     align-items: center;
     margin: 0px 110px;
-    
-
 }
+
 .nav-btn{
     background-color: white;
     border-width: 2px;
@@ -32,6 +34,7 @@ nav{
     font-size: 15px;
 }
 
+/* style of banner in header section */
 .banner{
     width: 1280px;
     height: 560px;
@@ -41,14 +44,14 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 64px;
-   
-   
+    gap: 64px;  
 }
+
 .banner-col1{
    margin: 117px 60px ;
    gap: 5px;
 }
+
 .banner-heading{
     font-weight: 500px;
     font-size: 20px;
@@ -60,30 +63,37 @@ nav{
     font-size: 45px;
     color: rgba(14, 14, 14, 1)
 }
+
 .banner-btn{
-    background-color: #006A50;
+    background-color: #017c5d;
     padding: 17px 34px;
+    border: none;
     color: white;
     font-weight: 500px;
     font-size: 18px;
     border-radius: 8px;
 }
+
 .banner-col2{
     width: 475px;
     height: 400px;
     margin: 80px 60px;
 }
+
 main{
     width: 1280px;
-    margin-left: 110px;
+    margin: 100px;
 }
+
+/* piller section */
 .sec-piller{
-    /* width: 1280px;
-    height: 325px; */
+
     margin: 80px 160px;
     gap: 5px;
 }
+
 .sec-heading{
+    
     font-weight: bold;
     font-size: 35px;
 }
@@ -107,6 +117,8 @@ main{
     display: flex;
     gap: 25px;
 }
+
+/* vission section */
 .sec-vission{
     margin-top: 80px;
 }
@@ -119,23 +131,23 @@ main{
     gap: 25px;
 }
 
-.btn-color-b{
+.btn-color-blue{
    background-color: #5490F5; 
 }
-.btn-color-g{
+.btn-color-green{
     background-color: #09A15C;
 }
-.btn-color-o{
+.btn-color-orange{
     background-color: #FFC239;
 }
 
-.vis-back-color-b{
+.vis-back-color-blue{
     background-color: rgba(84, 144, 245, 0.2);
 }
-.vis-back-color-g{
+.vis-back-color-green{
     background-color: #C6E4D6;
 }
-.vis-back-color-o{
+.vis-back-color-orange{
     background-color: #F7EBCF;
 }
 .vission{
@@ -159,8 +171,10 @@ main{
     color: white;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
+/* quotation section */
 .sec-quote{
     margin-top: 30px;
     background-color: #FFFFFF;
@@ -171,6 +185,7 @@ main{
 .quotation, .designation{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    text-align: justify;
 }
 .name{
     font-weight: 600px;
@@ -185,6 +200,11 @@ main{
     top: 5px;
     left: 2px;
 }
+
+/* opinion section */
+.sec-opinion{
+    margin-top: 80px;
+}
 .table-container{
     background-color: #FFFFFF;
     border-radius: 16px;
@@ -197,7 +217,7 @@ table {
 th {
     background-color: #C6E4D6;
     font-weight: 600px;
-    font-size: 18px;
+    font-size: 20px;
   }
 td{
     font-size: 16px;
@@ -205,13 +225,22 @@ td{
 th,td {
     border: 2px solid #ddd;
     text-align: left;
-    padding: 30px 100px 30px 24px;
+    padding: 30px 120px 30px 24px;
     color: #0E0E0E;
+}
+.left_head{
+    text-align: left;
+    border-right: none;
+}
+.right_head{
+    text-align: right;
+    border-left: none;
 }
  .table-opt{
     background-color: #d4ebd0;
     border: 1px solid #aaa;
     padding: 5px 15px;
+    margin-left: 50px;
     color: #000;
     cursor: pointer;
     font-size: 14px;
@@ -220,11 +249,14 @@ th,td {
  .table-opt:hover {
     background-color: #b6d4ba;
   }
+
+  /* Recent news section */
 .sec-recent{
     margin-top: 50px;
 }
 .news{
     display: flex;
+    align-items: center;
     background-color: #FFFFFF;
     border-radius: 24px;
     padding: 48px;
@@ -264,21 +296,7 @@ th,td {
     gap: 30px;
     margin-top: 30px;
 }
-footer{
-    width: 1280px;
-    text-align: center;
-    margin: 100px 110px ;
-    
-}
-
-.social-icon{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
+ /* donation section */
 .sec-donate{
     margin-top: 80px;
     text-align: center;
@@ -297,12 +315,122 @@ footer{
     padding: 20px;
     border-radius: 16px;
 }
-.money-card:hover{
-    background-color: #C6E4D6;
-    cursor: pointer;
-}
+
 .money-style{
     font-weight: bold;
     font-size: 30px;
     color: rgba(14, 14, 14, 0.8);
+}
+
+.other-amount>input{
+    margin-top: 32px ;
+    width: 1000px;
+    height: 60px;
+    border: none;
+}
+
+.other-amount>input::placeholder{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.btn-donate{
+    color: white;
+    padding: 13px 26px;
+    margin-top: 32px;
+    background-color: #017459;
+    border-radius: 8px;
+    font-weight: 700px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* newsletter section */
+.sec-newsletter{
+   
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 80px 250px;
+    margin-top: 80px;
+    border-radius: 25px;
+}
+.subscription{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 700px;
+    height: 40px;
+    margin: auto;
+}
+.email {
+    flex: 1;
+    height: 25px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    color: #555;
+} 
+.email::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    padding-left: 20px;
+} 
+.subscribe-btn {
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 13px 20px;
+    font-size: 16px;
+}
+ /* footer section */
+footer{
+    width: 1280px;
+    text-align: center;
+    margin: 100px 110px ;
+    
+}
+
+.foot-heading{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.social-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+/* hover style */
+
+.nav-btn:hover{
+    background-color: #107a4a;
+    color: white;
+}
+.subscribe-btn:hover, .banner-btn:hover, .btn-donate:hover, .news-btn:hover{
+    background-color: #035641;
+    cursor: pointer;
+}
+
+.money-card:hover{
+    background-color: #C6E4D6;
+    cursor: pointer;
+}
+
+.piller:hover{
+    background-color: rgb(143, 209, 186);
+    cursor: pointer;
+}
+
+.hover-btn:hover{
+    background-color:rgb(122, 73, 4);
+}
+
+.hover-card:hover{
+    background-color: #a7eecd;
 }
